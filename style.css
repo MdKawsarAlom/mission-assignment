@@ -17,6 +17,11 @@ section {
   width: 80%;
   background-position: bottom;
 }
+.stay {
+  border-left: 3px solid;
+  border-image: linear-gradient(180deg, #ff5959, tomato);
+  border-image-slice: 1;
+}
 .link-button {
   text-decoration: none;
   background-color: orange;
@@ -38,7 +43,7 @@ section {
   width: 40%;
 }
 .mission-area {
-  background-color: aliceblue;
+  background-color: #58b19f;
   padding-left: 20px;
   border-radius: 10px;
 }
